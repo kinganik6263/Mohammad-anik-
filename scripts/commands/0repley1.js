@@ -1,28 +1,25 @@
 const fs = require("fs");
 module.exports.config = {
-	name: "reply1",
-  prefix: true,
-    version: "1.0.1",
-	permssion: 0,
-	credits: "nai", 
-	description: "salam",
-	category: "no prefix",
-	usages: "salam",
-    cooldowns: 5, 
+  name: "salam",
+  version: "2.0.0",
+  permission: 0,
+  credits: "nayan",
+  description: "salam",
+  prefix: false,
+  category: "user",
+  usages: "salam",
+  cooldowns: 5,
 };
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
-	if (event.body.indexOf("assalamu alaikum")==0 || event.body.indexOf("assalamualaikum")==
-|| event.body.indexOf("asalamualaikum")==0 || event.body.indexOf("আসসালামুয়ালাইকুম")==0) {
+	if (event.body.indexOf("Assalamualaikum")==0 || (event.body.indexOf("Assalamu alaikum")==0 || (event.body.indexOf("আসসালামুয়ালাইকুম")==0 || (event.body.indexOf("আসসালামু য়ালাইকুম")==0)))) {
 		var msg = {
-				body: "ওয়ালাইকুমুস সালাম 😇",
-			}
-			api.sendMessage( msg, threadID, messageID);
-    api.setMessageReaction("🥰", event.messageID, (err) => {}, true)
+				body: "Hmm... বস অনিক তোমাকে ভালোবাসে😇😻 :))"
+    }
+			api.sendMessage(msg, threadID, messageID);
 		}
 	}
 	module.exports.run = function({ api, event, client, __GLOBAL }) {
 
-  }￼Not
-
+}
