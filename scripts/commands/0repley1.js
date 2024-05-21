@@ -13,7 +13,7 @@ module.exports.config = {
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
-	if (event.body.indexOf("Assalamualaikum")==0 || (event.body.indexOf("Assalamu alaikum")==0 || (event.body.indexOf("আসসালামুয়ালাইকুম")==0 || (event.body.indexOf("আসসালামু য়ালাইকুম")==0)))) {
+	if (event.body.indexOf("Assalamualaikum")==0 || (event.body.indexOf("Assalamu alaikum")==0 || (event.body.indexOf("আসসালামুয়ালাইকুম")==0 || (event.body.indexOf("আসসালামু আলাইকুম")==0)))) {
 		var msg = {
 				body: "ওয়ালাইকুম সালাম ওয়া রাহমাতুল্লাহি ওয়াবারকাতুহু 🥀🌺:))"
     }
