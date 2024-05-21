@@ -4,10 +4,10 @@ module.exports.config = {
   prefix: true,
     version: "1.0.1",
 	permssion: 0,
-	credits: "Simamto", 
-	description: "hihihihi",
+	credits: "nai", 
+	description: "salam",
 	category: "no prefix",
-	usages: "reply1",
+	usages: "salam",
     cooldowns: 5, 
 };
 
