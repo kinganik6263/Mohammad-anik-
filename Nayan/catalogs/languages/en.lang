@@ -26,16 +26,16 @@ users.needObject=have to be an Object
 
 handleCommand.userBanned=you are unable to use bot.
 handleCommand.threadBanned=your thread are unable to use bot.
-handleCommand.commandNotExist=the command you used doesn't exist in our system, try "%1".
+handleCommand.commandNotExist=আরে পাগল ওলটা পাল্টা কমান্ড দেস কেন😹😹😹 কমান্ড লিস্ট দেখতে /help লিখুন আপনি যেটা খুঁজছেন সেটা কি , try "%1".
 handleCommand.commandThreadBanned=your thread is unable to use command "%1"
 handleCommand.commandUserBanned=you are unable to use command "%1"
 handleCommand.threadNotAllowNSFW=your thread is not allowed to use NSFW commands
 handleCommand.cantGetInfoThread=can't get your thread's info, error: %1
-handleCommand.permissionNotEnough=you have no permission to use command "%1"
+handleCommand.permissionNotEnough= আরে বলদ এই কমান্ড অনিক ভাই ছাড়া আর কেউ use করতে পারবে না 😹😹"%1"
 handleCommand.cantSetMessageReaction=having some unexpected error at setMessageReaction, error: %1
 handleCommand.executeCommand=\ntime and date : %1\ncommand used : %2\nuser id : %3\ngroup id : %4\nargs included : %5\nprocessing time : %6ms
 handleCommand.commandError=having some unexpected error when using command %1, error : %2
-handleCommand.notMatched=this command does not require a prefix to start with.\n\nPleace Without Prefix Use This Command
+handleCommand.notMatched=এই কমান্ড use করার জন্য কোন prefix দরকার নেই.\n\n অনুগ্রহ করে prefix ছাড়াই এই কমান্ডটি ব্যবহার করুন 
 handleCommand.noPrefix=this command has no command config "usePrefix" property
 handleCommand.commandNotFound=the command you used doesn't exist.
 
